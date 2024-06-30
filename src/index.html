@@ -7,24 +7,24 @@
     <link rel="stylesheet" href="./output.css">
 </head>
 <body class="bg-slate-50">
-    <header class="flex justify-between bg-black relative">
+    <header class="sm:flex sm:justify-between bg-black sticky top-0 z-[2000]">
         <nav>
-            <ul class="flex max-md:flex-col">
-                <li><a href="#accueil" class="block px-3 py-2 text-white text-xl uppercase hover:bg-gray-200 hover:text-black">home</a></li>
-                <li><a href="#band" class="block px-3 py-2 text-white text-xl uppercase hover:bg-gray-200 hover:text-black">Band</a></li>
-                <li><a href="#tour" class="block px-3 py-2 text-white text-xl uppercase hover:bg-gray-200 hover:text-black">tour</a></li>
-                <li><a href="" class="block px-3 py-2 text-white text-xl uppercase hover:bg-gray-200 hover:text-black">contact</a></li>
+            <ul class="sm:flex *:text-center">
+                <li><a href="#accueil" class="block px-3 py-2 text-white text-xl uppercase hover:bg-gray-300 hover:text-black">home</a></li>
+                <li><a href="#band" class="block px-3 py-2 text-white text-xl uppercase hover:bg-gray-300 hover:text-black">Band</a></li>
+                <li><a href="#tour" class="block px-3 py-2 text-white text-xl uppercase hover:bg-gray-300 hover:text-black">tour</a></li>
+                <li><a href="#contact" class="block px-3 py-2 text-white text-xl uppercase hover:bg-gray-300 hover:text-black">contact</a></li>
                 <li class="group/sous">
-                    <span class="block px-3 py-2 text-white text-xl uppercase hover:bg-gray-200 hover:text-black">more</span>
-                    <ul class="absolute z-50 hidden bg-black group-hover/sous:block">
-                        <li><a href="" class="block px-3 py-2 text-white text-xl uppercase hover:bg-gray-300 hover:text-black">marchandise</a></li>
-                        <li><a href="" class="block px-3 py-2 text-white text-xl uppercase hover:bg-gray-300 hover:text-black">Extras</a></li>
-                        <li><a href="" class="block px-3 py-2 text-white text-xl uppercase hover:bg-gray-300 hover:text-black">Media</a></li>
+                    <span class="flex gap-1 items-center justify-center px-3 py-2 text-white text-xl uppercase hover:bg-gray-300">more <img src="../images/Expand_Arrow_1.ico" alt="open menu" class="h-5 float-right"></span>
+                    <ul class="absolute z-50 hidden bg-white group-hover/sous:block w-full sm:w-auto">
+                        <li><a href="" class="block px-3 py-2 text-black text-xl uppercase hover:bg-gray-300 hover:text-black">marchandise</a></li>
+                        <li><a href="" class="block px-3 py-2 text-black text-xl uppercase hover:bg-gray-300 hover:text-black">Extras</a></li>
+                        <li><a href="" class="block px-3 py-2 text-black text-xl uppercase hover:bg-gray-300 hover:text-black">Media</a></li>
                     </ul>
                 </li>
             </ul>
         </nav>
-        <div class="hover:bg-red-600 px-3 py-1 inline-block">
+        <div class="hover:bg-red-600 px-3 py-1 inline-block max-md:hidden">
             <img src="../images/Search.ico" alt="search">
         </div>
     </header>
@@ -91,37 +91,37 @@
             </table>
         </div>
         <div class="flex justify-evenly gap-5 m-10 max-lg:flex-col">
-            <article class="bg-white">
+            <article class="bg-white group/image1">
                 <div>
-                    <img src="../images/pexels-fritz-hoste-18455-89485.jpg" alt="hosteville" class="opacity-90 hover:opacity-100 object-cover h-60 w-full">
+                    <img src="../images/pexels-fritz-hoste-18455-89485.jpg" alt="hosteville" class="opacity-90 group-hover/image1:opacity-100 object-cover h-60 w-full">
                 </div>
                 <div class="p-4">
                     <h3 class="text-xl font-light mb-5">New York</h3>
                     <p class="text-gray-600 font-mono"><time datetime="2023-11-27">Vend 27 nov 2023</time></p>
                     <p class="mt-3 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, natus porro. Provident labore repudiandae ex.</p>
-                    <a href="" class="inline-block mt-3 px-4 py-3 bg-black text-white">Acheter des billets</a>  
+                    <a href="" class="inline-block mt-3 px-4 py-3 bg-black hover:bg-[rgba(0,0,0,.950)] text-white">Acheter des billets</a>  
                 </div>
             </article>
-            <article class="bg-white">
+            <article class="bg-white group/image2">
                 <div>
-                    <img src="../images/pexels-pixabay-290492.jpg" alt="pixabay" class="opacity-90 hover:opacity-100 object-cover h-60 w-full">
+                    <img src="../images/pexels-pixabay-290492.jpg" alt="pixabay" class="opacity-90 group-hover/image2:opacity-100 object-cover h-60 w-full">
                 </div>
                 <div class="p-4">
                     <h3 class="text-xl font-light mb-5">New York</h3>
                     <p class="text-gray-600 font-mono"><time datetime="2023-11-27">Vend 27 nov 2023</time></p>
                     <p class="mt-3 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, natus porro. Provident labore repudiandae ex.</p>
-                    <a href="" class="inline-block mt-3 px-4 py-3 bg-black text-white">Acheter des billets</a>  
+                    <a href="" class="inline-block mt-3 px-4 py-3 bg-black hover:bg-[rgba(0,0,0,.950)] text-white">Acheter des billets</a>  
                 </div>
             </article>
-            <article class="bg-white">
+            <article class="bg-white group/image3">
                 <div>
-                    <img src="../images/pexels-brandon-nickerson-129347-404173.jpg" alt="brandon" class="opacity-90 hover:opacity-100 object-cover h-60 w-full">
+                    <img src="../images/pexels-brandon-nickerson-129347-404173.jpg" alt="brandon" class="opacity-90 group-hover/image3:opacity-100 object-cover h-60 w-full">
                 </div>
                 <div class="p-4">
                     <h3 class="text-xl font-light mb-5">New York</h3>
                     <p class="text-gray-600 font-mono"><time datetime="2023-11-27">Vend 27 nov 2023</time></p>
                     <p class="mt-3 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, natus porro. Provident labore repudiandae ex.</p>
-                    <a href="" class="inline-block mt-3 px-4 py-3 bg-black text-white">Acheter des billets</a>  
+                    <a href="" class="inline-block mt-3 px-4 py-3 bg-black hover:bg-[rgba(0,0,0,.950)] text-white">Acheter des billets</a>  
                 </div>
             </article>
         </div>
@@ -155,8 +155,21 @@
         </div>
     </section>
 
-    <footer class="text-center">
-        <p>Powered by <a href="mailto:ekoleleibrahim8@gmail.com">Ekolele</a></p>
+    <section>
+        <img src="../images/map.jpg" alt="ville de New York" class="w-full h-[500px] object-cover">
+    </section>
+
+    <footer class="text-center p-[50px]">
+        <p>Powered by <a href="mailto:ekoleleibrahim8@gmail.com" class="underline visited:text-gray-950 hover:no-underline">Ekolele</a></p>
+
+        <div class="mt-5 flex justify-center items-center gap-[10px] *:h-4 *:w-4 *:cursor-pointer">
+            <img src="../images/Facebook.ico" alt="Facebook" class="hover:opacity-70">
+            <img src="../images/Instagram.ico" alt="Instagram" class="hover:opacity-70">
+            <img src="../images/Snapchat.ico" alt="Facebook" class="hover:opacity-70">
+            <img src="../images/Pinterest.ico" alt="Pinterest" class="hover:opacity-70">
+            <img src="../images/Twitter.ico" alt="Twitter" class="hover:opacity-70">
+            <img src="../images/LinkedIn.ico" alt="LinkedIn" class="hover:opacity-70">
+        </div>
     </footer>
 </body>
 </html>
