@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projet tailwindcss</title>
-    <link rel="stylesheet" href="./output.css">
+    <link rel="stylesheet" href="./src/output.css">
 </head>
 <body class="bg-slate-50">
     <header class="sm:flex sm:justify-between bg-black sticky top-0 z-[2000]">
@@ -15,7 +15,7 @@
                 <li><a href="#tour" class="block px-3 py-2 text-white text-xl uppercase hover:bg-gray-300 hover:text-black">tour</a></li>
                 <li><a href="#contact" class="block px-3 py-2 text-white text-xl uppercase hover:bg-gray-300 hover:text-black">contact</a></li>
                 <li class="group/sous">
-                    <span class="flex gap-1 items-center justify-center px-3 py-2 text-white text-xl uppercase hover:bg-gray-300">more <img src="../images/Expand_Arrow_1.ico" alt="open menu" class="h-5 float-right"></span>
+                    <span class="flex gap-1 items-center justify-center px-3 py-2 text-white text-xl uppercase hover:bg-gray-300">more <img src="./images/Expand_Arrow_1.ico" alt="open menu" class="h-5 float-right"></span>
                     <ul class="absolute z-50 hidden bg-white group-hover/sous:block w-full sm:w-auto">
                         <li><a href="" class="block px-3 py-2 text-black text-xl uppercase hover:bg-gray-300 hover:text-black">marchandise</a></li>
                         <li><a href="" class="block px-3 py-2 text-black text-xl uppercase hover:bg-gray-300 hover:text-black">Extras</a></li>
@@ -25,12 +25,12 @@
             </ul>
         </nav>
         <div class="hover:bg-red-600 px-3 py-1 inline-block max-md:hidden">
-            <img src="../images/Search.ico" alt="search">
+            <img src="./images/Search.ico" alt="search">
         </div>
     </header>
 
     <section class="w-full h-screen flex justify-center items-center text-center bg-blue-400 px-20 relative" id="accueil">
-        <img src="../images/pexels-vinta-supply-co-nyc-268013-842948.jpg" alt="newyork" class="w-full h-screen absolute top-0 bottom-0 left-0 right-0 object-cover">
+        <img src="./images/pexels-vinta-supply-co-nyc-268013-842948.jpg" alt="newyork" class="w-full h-screen absolute top-0 bottom-0 left-0 right-0 object-cover">
         <div class="*:text-white z-40 text-center">
             <h1 class="text-4xl font-serif mb-3">New York city</h1>
             <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis vitae molestias perferendis eos est temporibus repellendus optio quisquam et placeat.</p>
@@ -46,15 +46,15 @@
 
         <div class="flex justify-center gap-8 items-center flex-wrap mt-9">
             <picture>
-                <img src="../images/pexels-michalmarek-1774389.jpg" alt="newyork" class="h-40 w-72 object-cover rounded-lg">
+                <img src="./images/pexels-michalmarek-1774389.jpg" alt="newyork" class="h-40 w-72 object-cover rounded-lg">
                 <figcaption class="mt-4 font-medium font-serif text-center">New York 1</figcaption>
             </picture>
             <picture>
-                <img src="../images/pexels-rbrigant44-771881.jpg" alt="newyork" class="h-40 w-72 object-cover rounded-lg">
+                <img src="./images/pexels-rbrigant44-771881.jpg" alt="newyork" class="h-40 w-72 object-cover rounded-lg">
                 <figcaption class="mt-4 font-medium font-serif text-center">New York 2</figcaption>
             </picture>
             <picture>
-                <img src="../images/pexels-vinta-supply-co-nyc-268013-842948.jpg" alt="newyork" class="w-72 h-40 object-cover rounded-lg">
+                <img src="./images/pexels-vinta-supply-co-nyc-268013-842948.jpg" alt="newyork" class="w-72 h-40 object-cover rounded-lg">
                 <figcaption class="mt-4 font-medium font-serif text-center">New York 3</figcaption>
             </picture>
         </div>
@@ -93,7 +93,7 @@
         <div class="flex justify-evenly gap-5 m-10 max-lg:flex-col">
             <article class="bg-white group/image1">
                 <div>
-                    <img src="../images/pexels-fritz-hoste-18455-89485.jpg" alt="hosteville" class="opacity-90 group-hover/image1:opacity-100 object-cover h-60 w-full">
+                    <img src="./images/pexels-fritz-hoste-18455-89485.jpg" alt="hosteville" class="opacity-90 group-hover/image1:opacity-100 object-cover h-60 w-full">
                 </div>
                 <div class="p-4">
                     <h3 class="text-xl font-light mb-5">New York</h3>
@@ -104,7 +104,7 @@
             </article>
             <article class="bg-white group/image2">
                 <div>
-                    <img src="../images/pexels-pixabay-290492.jpg" alt="pixabay" class="opacity-90 group-hover/image2:opacity-100 object-cover h-60 w-full">
+                    <img src="./images/pexels-pixabay-290492.jpg" alt="pixabay" class="opacity-90 group-hover/image2:opacity-100 object-cover h-60 w-full">
                 </div>
                 <div class="p-4">
                     <h3 class="text-xl font-light mb-5">New York</h3>
@@ -115,7 +115,7 @@
             </article>
             <article class="bg-white group/image3">
                 <div>
-                    <img src="../images/pexels-brandon-nickerson-129347-404173.jpg" alt="brandon" class="opacity-90 group-hover/image3:opacity-100 object-cover h-60 w-full">
+                    <img src="./images/pexels-brandon-nickerson-129347-404173.jpg" alt="brandon" class="opacity-90 group-hover/image3:opacity-100 object-cover h-60 w-full">
                 </div>
                 <div class="p-4">
                     <h3 class="text-xl font-light mb-5">New York</h3>
@@ -156,19 +156,19 @@
     </section>
 
     <section>
-        <img src="../images/map.jpg" alt="ville de New York" class="w-full h-[500px] object-cover">
+        <img src="./images/map.jpg" alt="ville de New York" class="w-full h-[500px] object-cover">
     </section>
 
     <footer class="text-center p-[50px]">
         <p>Powered by <a href="mailto:ekoleleibrahim8@gmail.com" class="underline visited:text-gray-950 hover:no-underline">Ekolele</a></p>
 
-        <div class="mt-5 flex justify-center items-center gap-[10px] *:h-4 *:w-4 *:cursor-pointer">
-            <img src="../images/Facebook.ico" alt="Facebook" class="hover:opacity-70">
-            <img src="../images/Instagram.ico" alt="Instagram" class="hover:opacity-70">
-            <img src="../images/Snapchat.ico" alt="Facebook" class="hover:opacity-70">
-            <img src="../images/Pinterest.ico" alt="Pinterest" class="hover:opacity-70">
-            <img src="../images/Twitter.ico" alt="Twitter" class="hover:opacity-70">
-            <img src="../images/LinkedIn.ico" alt="LinkedIn" class="hover:opacity-70">
+        <div class="mt-5 flex justify-center items-center gap-[10px] *:h-4 *:w-auto *:cursor-pointer">
+            <img src="./images/Facebook.ico" alt="Facebook" class="hover:opacity-70">
+            <img src="./images/Instagram.ico" alt="Instagram" class="hover:opacity-70">
+            <img src="./images/Snapchat.ico" alt="Facebook" class="hover:opacity-70">
+            <img src="./images/Pinterest.ico" alt="Pinterest" class="hover:opacity-70">
+            <img src="./images/Twitter.ico" alt="Twitter" class="hover:opacity-70">
+            <img src="./images/LinkedIn.ico" alt="LinkedIn" class="hover:opacity-70">
         </div>
     </footer>
 </body>
